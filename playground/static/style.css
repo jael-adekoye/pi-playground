@@ -1,0 +1,35 @@
+body{
+  background : #FFE5B4;
+}
+#appname{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #fa67a4;
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
